@@ -1,4 +1,5 @@
 import { incCount } from './store';
+import {test} from './hello'
 function fn1(e) {
   e.preventDefault();
   const count = incCount();
